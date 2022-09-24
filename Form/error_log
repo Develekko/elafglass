@@ -1,0 +1,4 @@
+[16-Jul-2022 10:21:38 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'id17586836_elafglass'@'localhost' (using password: YES) in /home/elafqqho/public_html/Form/connect.php on line 9
+[16-Jul-2022 12:35:54 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'id17586836_elafglass'@'localhost' (using password: YES) in /home/elafqqho/public_html/Form/connect.php on line 9
+[16-Jul-2022 15:23:21 America/New_York] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'elafqqho_elafglass'@'localhost' to database 'id17586836_contactform' in /home/elafqqho/public_html/Form/connect.php on line 9
+[16-Jul-2022 15:28:04 America/New_York] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'elafqqho_elafglass'@'localhost' to database 'id17586836_contactform' in /home/elafqqho/public_html/Form/connect.php on line 9

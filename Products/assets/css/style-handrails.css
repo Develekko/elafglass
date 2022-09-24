@@ -1,0 +1,21 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  background-image: url(../../../assets/img/Products/handrails-stairs/stainless/24.jpg);
+
+}
+
+/* About Us Section
+--------------------------------*/
+
+#about .about-container .background {
+  background-image: url(../../../assets/img/Products/handrails-stairs/stainless/6.jpg);
+  background-size: contain;
+}
+
+.portfolio-zoom 
+{
+  overflow: hidden;
+  height: 400px;
+}

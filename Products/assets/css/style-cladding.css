@@ -1,0 +1,18 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  background-image: url(../../../assets/img/Products/glass-cladding/1.jpg);
+  background-size: 100% auto;
+  background-position: center center;
+
+}
+
+/* About Us Section
+--------------------------------*/
+
+#about .about-container .background {
+  background-image: url(../../../assets/img/Products/glass-cladding/2.jpeg);
+  background-size: contain;
+}
+

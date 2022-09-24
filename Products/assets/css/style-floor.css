@@ -1,0 +1,16 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  background-image: url(../../../assets/img/Products/glass-floor/glass-floor-1.jpg);
+
+}
+
+/* About Us Section
+--------------------------------*/
+
+#about .about-container .background {
+  background-image: url(../../../assets/img/Products/glass-floor/glass-floor-2.jpg);
+}
+
+

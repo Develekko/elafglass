@@ -1,0 +1,17 @@
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  background-image: url(../../../assets/img/Products/shower-cabients/shower-1.jpg);
+
+}
+
+/* About Us Section
+--------------------------------*/
+
+
+#about .about-container .background {
+  background-image: url(../../../assets/img/Products/shower-cabients/sliding/3.jpg);
+  background-size: contain ;
+}

@@ -1,1 +1,35 @@
+lsapi_phpini /home/cPanel_user/public_html/php.ini
+RewriteOptions inherit
 ErrorDocument 404 /404page.html
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
+RewriteCond %{HTTP_HOST} ^elafglass\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.elafglass\.com$
+RewriteRule ^assets\/?$ "https\:\/\/elafglass\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^elafglass\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.elafglass\.com$
+RewriteRule ^404\/?$ "https\:\/\/elafglass\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^elafglass\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.elafglass\.com$
+RewriteRule ^ar\/assets$ "https\:\/\/elafglass\.com\/ar" [R=301,L]
+RewriteCond %{HTTP_HOST} ^elafglass\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.elafglass\.com$
+RewriteRule ^ar\/404$ "https\:\/\/elafglass\.com\/ar" [R=301,L]
+RewriteCond %{HTTP_HOST} ^elafglass\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.elafglass\.com$
+RewriteRule ^malls$ "https\:\/\/elafglass\.com\/Malls" [R=301,L]
+RewriteCond %{HTTP_HOST} ^elafglass\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.elafglass\.com$
+RewriteRule ^Products\/?$ "https\:\/\/elafglass\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^elafglass\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.elafglass\.com$
+RewriteRule ^ar\/Products$ "https\:\/\/elafglass\.com\/ar" [R=301,L]
+RewriteEngine on
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+
+

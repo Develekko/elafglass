@@ -1,0 +1,22 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  background-image: url(../../../assets/img/Products/mirrors/4.jpg);
+
+
+}
+
+/* About Us Section
+--------------------------------*/
+
+#about .about-container .background {
+  background-image: url(../../../assets/img/Products/mirrors/2.jpg);
+  background-size: cover;
+}
+
+.portfolio-zoom 
+{
+  overflow: hidden;
+  height: 300px;
+}

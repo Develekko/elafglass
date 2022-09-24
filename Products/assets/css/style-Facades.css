@@ -1,0 +1,22 @@
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  background-image: url(../../../assets/img/Products/facades/indoor/HappyVision.jpg);
+
+}
+
+/* About Us Section
+--------------------------------*/
+
+
+#about .about-container .background {
+  background-image: url(../../../assets/img/Products/facades/indoor/Virgin.jpg);
+}
+
+.portfolio-zoom 
+{
+  overflow: hidden;
+  height: 250px;
+}
